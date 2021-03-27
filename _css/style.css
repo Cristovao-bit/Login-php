@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/03/2021, 17:01:46
+    Author     : ML_se
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #ffeb3b;
+}
+
+.login {
+    width: 320px;
+    height: 420px;
+    border-radius: 80px 0 80px 0;
+    color: #fff;
+    background-color: rgba(0,0,5,0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 68px 28px;
+}
+
+.usuario{
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 112px;
+}
+
+h3{
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.login input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.login input[type="submit"]:hover{
+    cursor: pointer;
+    background: #fdd835;
+}
+
+.login .btn-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.login .btn-login a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fdd835;
+    transition: .2s;
+}
+
+.login .btn-login a:hover {
+    color: #ffee58;
+}
